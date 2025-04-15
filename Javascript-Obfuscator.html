@@ -1,0 +1,43 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">JavaScript Obfuscator</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Protect your JavaScript code by making it unreadable to humans while keeping it functional.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>JavaScript Obfuscator</b> is a free tool that helps you hide and protect your source code by converting it into a complex and unreadable format. This process makes it difficult for others to reverse-engineer or misuse your JavaScript code, adding an extra layer of security for your applications.
+            <br /><br />
+            Simply paste your original JavaScript code, click the obfuscate button, and receive a minified version that retains functionality but is difficult to understand. Perfect for developers, coders, and project owners who want to protect their intellectual property in client-side scripts.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What does JavaScript obfuscation mean?</h5>
+            <p className='!mt-[10px]'>JavaScript obfuscation transforms readable JavaScript code into a scrambled version that's hard to understand but functions the same way in browsers.</p>
+            
+            <h5 className='font-bold'>Why should I obfuscate my JavaScript code?</h5>
+            <p className='!mt-[10px]'>Obfuscation protects your intellectual property, prevents code theft, and helps reduce unauthorized modifications or debugging of your JavaScript files.</p>
+            
+            <h5 className='font-bold'>Is obfuscated JavaScript still functional?</h5>
+            <p className='!mt-[10px]'>Yes, obfuscated JavaScript retains full functionality. The obfuscation only changes how the code looks—not how it behaves in the browser.</p>
+            
+            <h5 className='font-bold'>Can I reverse obfuscate JavaScript code?</h5>
+            <p className='!mt-[10px]'>While it’s technically possible, it’s extremely difficult and time-consuming to reverse engineer obfuscated code, especially when advanced techniques are used.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
