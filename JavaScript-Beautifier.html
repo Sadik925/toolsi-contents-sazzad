@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">JavaScript Beautifier</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Instantly beautify and format messy JavaScript code for better readability and editing ease.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>JavaScript Beautifier</b> is a powerful online tool that takes your minified or cluttered JavaScript code and formats it into a clean, structured format. Whether you're debugging, sharing code, or reviewing scripts, this tool ensures that your JavaScript is readable and properly indented. It’s perfect for developers, learners, and anyone working with JS.
+        </p>
+        <p className='text-xl leading-[1.75] mt-6'>
+            No need for complicated setups—just paste your code, click the beautify button, and watch it transform into a neatly formatted script. It's fast, user-friendly, and works on any device with a modern browser. Save time and eliminate confusion with our efficient JavaScript Beautifier.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a JavaScript Beautifier?</h5>
+            <p className='!mt-[10px]'>A JavaScript Beautifier formats and indents your JavaScript code to make it more readable and easier to understand.</p>
+
+            <h5 className='font-bold'>Is this tool free to use?</h5>
+            <p className='!mt-[10px]'>Yes, the JavaScript Beautifier is completely free and requires no sign-up or installation to use.</p>
+
+            <h5 className='font-bold'>Will my code be stored or shared?</h5>
+            <p className='!mt-[10px]'>No, your code stays local to your browser. This tool does not store, share, or transmit your input in any way.</p>
+
+            <h5 className='font-bold'>Can I beautify minified JavaScript files?</h5>
+            <p className='!mt-[10px]'>Absolutely! This tool is designed to handle minified and compressed JavaScript code and convert it into readable format.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
