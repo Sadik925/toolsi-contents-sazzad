@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">Responsive Design Tester</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Check how your website looks on different screen sizes instantly and effortlessly.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>Responsive Design Tester</b> helps web developers, designers, and site owners instantly preview websites on various devices and resolutions. Whether you're building a site or just want to verify responsiveness, this tool offers a simple and effective solution for visual testing.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Just enter your URL, and view your site as it would appear on mobile phones, tablets, laptops, and desktops. This tool ensures your design looks great everywhere, enhancing user experience and improving your SEO performance by ensuring mobile-friendliness.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a Responsive Design Tester?</h5>
+            <p className='!mt-[10px]'>It is a tool that lets you preview how your website looks on multiple devices and screen sizes without physically owning those devices.</p>
+            
+            <h5 className='font-bold'>Why is responsive testing important?</h5>
+            <p className='!mt-[10px]'>Responsive testing ensures your website is usable and visually appealing across all devices, improving user experience and search engine rankings.</p>
+            
+            <h5 className='font-bold'>Can I test any website using this tool?</h5>
+            <p className='!mt-[10px]'>Yes, simply enter any valid website URL to preview it on various screen resolutions and devices in real-time.</p>
+            
+            <h5 className='font-bold'>Does this tool support custom screen dimensions?</h5>
+            <p className='!mt-[10px]'>Yes, along with predefined devices, you can manually set custom width and height values to test specific dimensions.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
