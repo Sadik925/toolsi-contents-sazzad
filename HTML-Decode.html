@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">HTML Decode</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Decode HTML entities into readable characters instantly using our fast and reliable HTML Decode tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            Our <b>HTML Decode</b> tool helps you convert encoded HTML entities back into their original characters with ease. Whether you're decoding symbols, tags, or special characters, this tool offers a quick and accurate way to restore clean, human-readable text.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            It's especially helpful for developers, bloggers, or anyone dealing with web-based content. Paste your encoded string into the input field, and the decoded result will appear instantly — no installation, no hassle.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What does HTML Decode do?</h5>
+            <p className='!mt-[10px]'>HTML Decode converts HTML-encoded entities (like <code>&amp;lt;</code>) into their readable characters (like &lt;) for clear text output.</p>
+
+            <h5 className='font-bold'>Who should use this tool?</h5>
+            <p className='!mt-[10px]'>This tool is ideal for developers, content editors, SEO experts, and bloggers who deal with encoded HTML strings or source code frequently.</p>
+
+            <h5 className='font-bold'>Is HTML decoding different from encoding?</h5>
+            <p className='!mt-[10px]'>Yes, encoding converts characters to HTML entities, while decoding does the opposite — turning those entities back into readable characters.</p>
+
+            <h5 className='font-bold'>Can I decode multiple lines of code at once?</h5>
+            <p className='!mt-[10px]'>Absolutely. You can paste full HTML blocks or multi-line content, and the tool will decode everything instantly and accurately.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
