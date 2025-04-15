@@ -1,0 +1,41 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">QR Code Generator</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Generate custom QR codes instantly with text, URLs, emails, or more. Fast, free, and easy to use for personal or business use.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>Our QR Code Generator</b> allows you to easily create fully functional QR codes for links, text, phone numbers, emails, and more. Whether you're managing event invitations, business promotions, or quick links, our tool lets you generate clean, scannable codes in seconds. Just enter your content and hit generate—no registration needed.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            With a simple interface and real-time preview, you can customize the QR code's size and content instantly. This free tool is mobile-friendly, fast, and works seamlessly on all major browsers. Use it to enhance your marketing, improve access to digital content, or just to make sharing information easier.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a QR code?</h5>
+            <p className='!mt-[10px]'>A QR code (Quick Response code) is a type of barcode that stores data and can be scanned using smartphones or QR scanners to quickly access information.</p>
+            <h5 className='font-bold'>How do I use the QR Code Generator?</h5>
+            <p className='!mt-[10px]'>Simply input your desired content (URL, text, phone number, etc.), and the tool will automatically generate a QR code that you can download or embed.</p>
+            <h5 className='font-bold'>Can I customize the size of my QR code?</h5>
+            <p className='!mt-[10px]'>Yes, you can adjust the size of your QR code before downloading it. Our generator lets you preview and customize the output for better visibility and usability.</p>
+            <h5 className='font-bold'>Is this QR Code Generator free to use?</h5>
+            <p className='!mt-[10px]'>Absolutely. Our tool is completely free and does not require registration. Generate unlimited QR codes without ads or limits.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
