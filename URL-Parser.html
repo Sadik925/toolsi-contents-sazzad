@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">URL Parser – Break Down Any URL Instantly</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Analyze and extract every component of any URL including protocol, host, path, and query.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The URL Parser tool helps developers, marketers, and curious users easily break down any URL into its essential components. Simply paste a URL into the tool, and it will instantly display detailed elements such as the protocol (http/https), domain, subdomain, port, path, query string, hash, and more.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Whether you're debugging a website, analyzing tracking parameters, or learning how web URLs work, this tool provides a fast and clean way to understand any link’s structure. It's simple, free to use, and works on any modern browser without requiring downloads or signups.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a URL parser?</h5>
+            <p className='!mt-[10px]'>A URL parser breaks down a web address into its parts like protocol, domain, path, and query parameters. It helps you understand how URLs are structured.</p>
+            
+            <h5 className='font-bold'>Why would I need to parse a URL?</h5>
+            <p className='!mt-[10px]'>Parsing a URL is useful for debugging, extracting UTM parameters, checking redirects, or just understanding how a particular link behaves and functions.</p>
+            
+            <h5 className='font-bold'>Does this tool support long and complex URLs?</h5>
+            <p className='!mt-[10px]'>Yes, the URL Parser can handle long and complex URLs, including those with multiple query strings, hashes, and subdirectories. It displays each part clearly.</p>
+            
+            <h5 className='font-bold'>Is the URL Parser tool secure to use?</h5>
+            <p className='!mt-[10px]'>Absolutely. The tool runs completely on your browser without sending URLs to any server, ensuring full privacy and security while you analyze links.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
