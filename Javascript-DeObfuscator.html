@@ -1,0 +1,41 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">JavaScript DeObfuscator</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Easily decode obfuscated JavaScript code into clean, readable format online with this powerful tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>JavaScript DeObfuscator</b> is a free online tool designed to convert obfuscated or minified JavaScript back into a human-readable format. Whether you're debugging legacy code, inspecting scripts, or learning how a snippet works, this tool helps reveal the true logic behind scrambled code.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Just paste the obfuscated JavaScript, and the tool will reformat and clean it using smart parsing and beautification logic. It's perfect for developers, cybersecurity researchers, and students who want clarity without manual decoding.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a JavaScript DeObfuscator?</h5>
+            <p className='!mt-[10px]'>A JavaScript DeObfuscator is a tool that transforms compressed, minified, or intentionally scrambled JavaScript code into a readable, structured format.</p>
+            <h5 className='font-bold'>How does this tool work?</h5>
+            <p className='!mt-[10px]'>It analyzes your input code and applies indentation, spacing, and formatting rules to make the logic and structure easier to understand.</p>
+            <h5 className='font-bold'>Is it safe to use this tool for sensitive scripts?</h5>
+            <p className='!mt-[10px]'>Yes. The tool runs entirely in your browser, so your code is never uploaded or stored on any server. Your data stays private.</p>
+            <h5 className='font-bold'>Can I edit the deobfuscated code?</h5>
+            <p className='!mt-[10px]'>Absolutely. Once the code is beautified, you can make changes directly in the editor or copy it for use in your projects.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
