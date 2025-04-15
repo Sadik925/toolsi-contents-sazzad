@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">URL Encode</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Easily encode special characters in URLs to ensure safe and valid transmission over the internet.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>URL Encode</b> is a simple yet essential tool for converting text into a format that can be safely transmitted through URLs. Special characters, such as spaces, ampersands, and symbols, are encoded into a format that browsers and servers can understand without errors or misinterpretation.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Whether you're a developer working with query strings or a marketer building shareable links, this tool ensures your URLs remain clean and functional. Just paste your text, hit encode, and copy the result instantly.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is URL encoding?</h5>
+            <p className='!mt-[10px]'>URL encoding is the process of converting characters into a format that can be safely transmitted via URLs, often replacing special characters with percent symbols.</p>
+            
+            <h5 className='font-bold'>Why is URL encoding necessary?</h5>
+            <p className='!mt-[10px]'>URLs can only contain a limited set of characters. Encoding ensures special characters like spaces or symbols are interpreted correctly by browsers and servers.</p>
+            
+            <h5 className='font-bold'>When should I use URL Encode?</h5>
+            <p className='!mt-[10px]'>Use it when inserting data into URLs, such as query parameters, form inputs, or API requests, to prevent formatting issues and data corruption.</p>
+            
+            <h5 className='font-bold'>Is URL encoding the same as HTML encoding?</h5>
+            <p className='!mt-[10px]'>No, they serve different purposes. URL encoding prepares text for use in URLs, while HTML encoding ensures characters render correctly in web pages.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
