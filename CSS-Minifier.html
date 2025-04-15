@@ -1,0 +1,43 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">CSS Minifier</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Minify your CSS code instantly to reduce file size and boost site speed with our free online CSS Minifier tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            CSS Minifier helps developers streamline their CSS files by removing unnecessary characters such as whitespace, comments, and line breaks. This results in significantly smaller file sizes, which means faster page loading times and improved website performance.
+            <br /><br />
+            Whether you're optimizing a production site or testing locally, our tool ensures your CSS is clean and compressed without affecting functionality. Simply paste your code, click minify, and get optimized CSS in seconds—no installation or registration required.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What does a CSS Minifier do?</h5>
+            <p className='!mt-[10px]'>A CSS Minifier removes unnecessary characters like spaces, comments, and newlines from CSS code to reduce file size without changing its behavior.</p>
+
+            <h5 className='font-bold'>Is minifying CSS safe?</h5>
+            <p className='!mt-[10px]'>Yes, minifying CSS is safe because it only removes non-essential parts of the code that do not affect how styles are rendered in the browser.</p>
+
+            <h5 className='font-bold'>Does minifying CSS improve SEO?</h5>
+            <p className='!mt-[10px]'>Minifying CSS can contribute to SEO by improving site speed, which is a ranking factor used by search engines like Google.</p>
+
+            <h5 className='font-bold'>Can I undo the minified CSS?</h5>
+            <p className='!mt-[10px]'>While you can't directly unminify, there are beautifier tools that can reformat minified CSS to make it more readable again, though comments and original formatting are lost.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
