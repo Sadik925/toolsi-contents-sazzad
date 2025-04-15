@@ -1,0 +1,45 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">HTML Minifier</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Minify your HTML code instantly, reduce page size, and speed up website loading times effortlessly with our free online tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>HTML Minifier</b> is a simple, efficient, and free tool to remove unnecessary spaces, comments, and line breaks from your HTML code. It helps reduce file size, boost page load speed, and optimize your code for faster browser rendering.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Whether you're a web developer, designer, or site owner, this tool ensures your HTML remains clean, lightweight, and production-ready. Just paste your code and get a minified version in seconds—no installations or setup required.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+
+            <h5 className='font-bold'>What does an HTML minifier do?</h5>
+            <p className='!mt-[10px]'>An HTML minifier removes extra spaces, comments, and unnecessary characters to shrink the size of your HTML file without changing its functionality.</p>
+
+            <h5 className='font-bold'>Why should I minify my HTML?</h5>
+            <p className='!mt-[10px]'>Minifying HTML reduces file size, which helps improve website speed and performance—especially important for SEO and mobile users.</p>
+
+            <h5 className='font-bold'>Is HTML minification safe?</h5>
+            <p className='!mt-[10px]'>Yes, as long as only non-essential characters are removed, the minified HTML will behave the same as the original when rendered in a browser.</p>
+
+            <h5 className='font-bold'>Can I revert minified HTML back to normal?</h5>
+            <p className='!mt-[10px]'>You can try to format minified HTML using a beautifier, but exact original formatting may not be restored due to loss of comments and line breaks.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
