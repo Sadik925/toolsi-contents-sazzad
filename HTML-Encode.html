@@ -1,0 +1,45 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">HTML Encode</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Convert text to safe HTML entities instantly and prevent code breakage</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>HTML Encode</b> is a free online tool that converts plain text into HTML-encoded characters. It replaces special characters like <, >, &, and " with their respective HTML entities, ensuring your content is displayed safely in web browsers without being misinterpreted as actual HTML tags or code.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            This tool is especially useful for developers, bloggers, and coders who want to embed code snippets or display user-generated content safely. No installation needed—just paste, encode, and copy your HTML-safe text for use in emails, websites, or CMS platforms.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+
+            <h5 className='font-bold'>What is HTML encoding?</h5>
+            <p className='!mt-[10px]'>HTML encoding is the process of converting characters into a format that can be safely displayed on a webpage without interfering with HTML structure.</p>
+
+            <h5 className='font-bold'>Why should I use an HTML encoder?</h5>
+            <p className='!mt-[10px]'>Using an HTML encoder prevents special characters from being treated as HTML code, protecting your content from rendering issues or cross-site scripting vulnerabilities.</p>
+
+            <h5 className='font-bold'>Which characters are encoded by this tool?</h5>
+            <p className='!mt-[10px]'>Characters like &, <, >, ", and ' are encoded into their corresponding HTML entities to ensure proper display and browser safety.</p>
+
+            <h5 className='font-bold'>Is it safe to use this tool for encoding user input?</h5>
+            <p className='!mt-[10px]'>Yes, it is safe. HTML encoding user input before display helps prevent code injection and ensures your site renders the content securely and correctly.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
