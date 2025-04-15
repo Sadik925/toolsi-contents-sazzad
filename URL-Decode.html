@@ -1,0 +1,41 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">URL Decode</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Decode any percent-encoded URLs into human-readable text instantly with this free online tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The <b>URL Decode</b> tool is designed to convert percent-encoded strings (like <i>%20</i> or <i>%3A</i>) back into plain text. This is especially helpful for web developers, marketers, and SEO professionals who deal with complex or encoded URLs.
+        </p>
+        <p className='text-xl leading-[1.75] mt-4'>
+            Whether you’re debugging query parameters, analyzing server logs, or decoding data for readability, this tool provides an instant solution. Simply paste the encoded URL, and it will decode the string instantly without requiring any installation or technical expertise.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What does URL decoding mean?</h5>
+            <p className='!mt-[10px]'>URL decoding is the process of converting percent-encoded characters (like %20) in a URL back to their original form, such as spaces or special symbols.</p>
+            <h5 className='font-bold'>Why do URLs get encoded?</h5>
+            <p className='!mt-[10px]'>URLs are encoded to ensure safe transmission over the internet. Special characters like spaces or symbols are replaced with percent signs and hexadecimal codes.</p>
+            <h5 className='font-bold'>Is it safe to use an online URL decoder?</h5>
+            <p className='!mt-[10px]'>Yes, it’s safe as long as the tool doesn’t store or transmit your data. Our tool processes everything in your browser for complete privacy.</p>
+            <h5 className='font-bold'>Can I decode full links or just query parameters?</h5>
+            <p className='!mt-[10px]'>You can decode the entire URL, including the domain, path, and query parameters. The tool will convert all encoded parts of the input string.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
