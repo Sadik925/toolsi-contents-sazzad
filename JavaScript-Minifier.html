@@ -1,0 +1,40 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">JavaScript Minifier</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Quickly minify JavaScript code by removing whitespace, comments, and unnecessary characters for faster load times.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The JavaScript Minifier tool helps developers optimize their code by removing unnecessary characters such as spaces, line breaks, and comments without altering its functionality. This compression reduces file size and improves website performance by accelerating load times.
+            <br /><br />
+            Whether you're optimizing scripts for production or cleaning up code before deployment, our tool ensures a smoother user experience with faster response times. It’s especially useful for web developers looking to increase efficiency and minimize bandwidth usage without manually editing code.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a JavaScript minifier?</h5>
+            <p className='!mt-[10px]'>A JavaScript minifier is a tool that compresses JavaScript files by eliminating whitespace, comments, and unnecessary characters, making the code smaller and faster to load.</p>
+            <h5 className='font-bold'>Does minifying JavaScript affect functionality?</h5>
+            <p className='!mt-[10px]'>No, minifying JavaScript does not change how the code works. It simply removes non-essential elements like comments and extra spaces, keeping functionality intact.</p>
+            <h5 className='font-bold'>When should I use a JavaScript minifier?</h5>
+            <p className='!mt-[10px]'>Use a JavaScript minifier before deploying your website or app. It helps reduce file size, improves performance, and ensures faster loading for users.</p>
+            <h5 className='font-bold'>Can I unminify JavaScript later?</h5>
+            <p className='!mt-[10px]'>While it's possible to unminify or beautify minified code, variable names and structure might be altered, making it harder to read than the original formatted code.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
