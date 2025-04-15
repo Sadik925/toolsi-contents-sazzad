@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">CSS Beautifier</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Instantly format and beautify your messy CSS code to improve readability and maintainability in one click.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The <b>CSS Beautifier</b> is designed to help developers and designers instantly clean up, organize, and structure their CSS code. Whether you've inherited cluttered styles or pasted minified CSS from a third-party source, this tool transforms it into a neatly formatted, readable layout.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            It supports indentation, proper spacing, and structural alignment to ensure better code maintenance and collaboration. Just paste your CSS, click beautify, and enjoy a cleaner workspace—saving time and effort during development.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a CSS Beautifier?</h5>
+            <p className='!mt-[10px]'>A CSS Beautifier is a tool that reformats unorganized or minified CSS into a more human-readable structure using proper indentation and spacing.</p>
+
+            <h5 className='font-bold'>Why should I use a CSS Beautifier?</h5>
+            <p className='!mt-[10px]'>Using a CSS Beautifier helps improve code readability, debugging efficiency, and team collaboration, especially when working with large or complex stylesheets.</p>
+
+            <h5 className='font-bold'>Is this CSS Beautifier safe to use?</h5>
+            <p className='!mt-[10px]'>Yes, it works entirely on the client side in your browser. Your code is not stored or shared with any third parties.</p>
+
+            <h5 className='font-bold'>Can I beautify CSS with media queries and comments?</h5>
+            <p className='!mt-[10px]'>Absolutely. The tool preserves media queries, comments, and important structure while reformatting the code for better readability.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
