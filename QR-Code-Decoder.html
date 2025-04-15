@@ -1,0 +1,45 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">QR Code Decoder</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Easily decode QR codes from images or webcam to reveal text, URLs, or data instantly.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>QR Code Decoder</b> is a simple and fast online tool that lets you extract information encoded in any QR code. Just upload your image or use your webcam to scan a code, and the tool will reveal the embedded content in seconds.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            This tool supports all standard QR formats and works perfectly on all modern browsers and devices. Whether it's a link, text, contact info, or a payment request, decode and view it instantly with zero hassle and no need for extra apps.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+
+            <h5 className='font-bold'>How does the QR Code Decoder work?</h5>
+            <p className='!mt-[10px]'>It analyzes the QR code image using your browser and extracts the encoded data, whether it's text, a URL, or other content.</p>
+
+            <h5 className='font-bold'>Do I need to install any software?</h5>
+            <p className='!mt-[10px]'>No. This is a browser-based tool, so you don't need to download or install anything to decode QR codes.</p>
+
+            <h5 className='font-bold'>Can I use my webcam to scan a QR code?</h5>
+            <p className='!mt-[10px]'>Yes. You can allow webcam access and scan QR codes in real-time using your camera directly within the tool.</p>
+
+            <h5 className='font-bold'>Is my data secure while using this tool?</h5>
+            <p className='!mt-[10px]'>Yes. The QR code decoding happens entirely on your device and nothing is uploaded to any server, ensuring complete privacy.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
