@@ -1,0 +1,41 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">HTML Beautifier</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Format and clean up your messy HTML code for better readability instantly.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>HTML Beautifier</b> is a free online tool that reformats your HTML code into a clean and readable structure. It fixes indentation, organizes tags, and ensures your code is properly aligned, making it much easier to review or debug.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Whether you're a beginner or a seasoned developer, beautifying your HTML code improves clarity and professionalism. Simply paste your HTML, click to format, and copy the cleaned result for use in your projects or documentation.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is an HTML Beautifier?</h5>
+            <p className='!mt-[10px]'>An HTML Beautifier is a tool that formats HTML code to make it cleaner, more readable, and easier to maintain by applying consistent indentation and spacing.</p>
+            <h5 className='font-bold'>Why should I beautify my HTML code?</h5>
+            <p className='!mt-[10px]'>Beautifying HTML improves code readability, reduces errors, helps collaboration, and ensures your code follows a consistent structure for future maintenance.</p>
+            <h5 className='font-bold'>Does it change the functionality of my code?</h5>
+            <p className='!mt-[10px]'>No, the beautifier only formats the layout and indentation. It doesn't alter the code logic, structure, or any functional attributes of your HTML.</p>
+            <h5 className='font-bold'>Is this tool free and secure to use?</h5>
+            <p className='!mt-[10px]'>Yes, it's completely free and processes your HTML locally within the browser. None of your code is stored or shared with any third party.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
