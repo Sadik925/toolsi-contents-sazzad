@@ -1,0 +1,46 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">Schema Markup Generator</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Generate structured data markup easily to improve SEO and help search engines better understand your site content.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>Schema Markup Generator</b> is a free tool that allows you to create structured data snippets in JSON-LD format. These snippets enhance your website’s visibility on search engines by enabling rich results like FAQs, reviews, events, and more.
+            Simply select your desired schema type, fill out the fields, and copy the generated markup to embed on your site.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            By using schema markup, search engines can better interpret your content, which can lead to improved indexing and higher click-through rates.
+            Whether you're adding markup for articles, organizations, local businesses, or breadcrumbs, this tool simplifies the process without requiring any coding knowledge.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is schema markup?</h5>
+            <p className='!mt-[10px]'>Schema markup is a form of structured data added to websites to help search engines understand the content and context of web pages.</p>
+
+            <h5 className='font-bold'>How does schema markup improve SEO?</h5>
+            <p className='!mt-[10px]'>It helps your content appear in rich snippets on search results, which can improve visibility, increase click-through rates, and boost search rankings.</p>
+
+            <h5 className='font-bold'>What types of schema can I generate?</h5>
+            <p className='!mt-[10px]'>You can generate markup for articles, products, reviews, organizations, events, local businesses, breadcrumbs, FAQs, and more.</p>
+
+            <h5 className='font-bold'>Do I need coding knowledge to use this tool?</h5>
+            <p className='!mt-[10px]'>No. The Schema Markup Generator is beginner-friendly and requires no technical skills. Just fill in the fields and copy the code.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
