@@ -1,0 +1,46 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">UUID Generator</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Generate unique UUIDs instantly for databases, software testing, or identification.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            A UUID (Universally Unique Identifier) is a 128-bit value used to uniquely identify information across systems. 
+            This UUID Generator helps you create version 4 UUIDs based on random values—ideal for identifiers in databases, files, sessions, or tokens.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Our tool ensures instant generation with a single click and no duplication risks. It’s perfect for developers, testers, and system architects looking 
+            to streamline unique ID creation without writing extra code or using libraries.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a UUID?</h5>
+            <p className='!mt-[10px]'>A UUID is a 128-bit identifier used to uniquely tag objects, records, or information across distributed systems or databases.</p>
+
+            <h5 className='font-bold'>What version of UUID does this tool generate?</h5>
+            <p className='!mt-[10px]'>This tool generates UUID version 4, which is randomly generated and widely used in modern applications.</p>
+
+            <h5 className='font-bold'>Is each UUID truly unique?</h5>
+            <p className='!mt-[10px]'>Yes, UUID v4 is designed to be statistically unique. The probability of duplication is extremely low due to its large keyspace.</p>
+
+            <h5 className='font-bold'>Can I use this UUID in production environments?</h5>
+            <p className='!mt-[10px]'>Absolutely. The generated UUIDs are suitable for production use in APIs, database keys, or any system requiring unique identifiers.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
